@@ -1,10 +1,11 @@
 import { Fragment } from 'react';
 import './App.css';
+import { Routers } from './configs';
 
 function App() {
   return (
     <Fragment>
-      <h1 className='text-2xl text-blue-500 font-bold'>Hello World</h1>
+      <Routers/>
     </Fragment>
   );
 }
