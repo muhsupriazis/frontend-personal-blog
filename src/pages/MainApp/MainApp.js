@@ -2,7 +2,9 @@ import React from 'react'
 
 const MainApp = () => {
   return (
-    <div>MainApp</div>
+    <div className='text-blue-500'>
+      Hello
+    </div>
   )
 }
 
