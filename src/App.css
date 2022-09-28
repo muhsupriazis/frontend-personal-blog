@@ -12,3 +12,13 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+    font-family : Inter
+}
+
+td {
+  padding: .7em .7em .7em 0;
+  border-bottom: 1px solid rgb(209, 213, 219);
+  color: #2e2e2e;
+}

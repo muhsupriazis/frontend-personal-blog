@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { foto } from '../../assets'
-import { Button, Search } from '../atoms'
+import {Search } from '../atoms'
 
 const Header = () => {
   return (
@@ -13,18 +13,26 @@ const Header = () => {
             </svg>
           </div>
           <nav>
-              <ul className='flex gap-1'>
+              <ul className='flex gap-1 items-center'>
                 <li><Link className='hover:bg-blue-100 py-[.5em] px-[.5em] text-sm rounded-sm hover:text-blue-800' to='article' >Article</Link></li>
                 <li><Link className='hover:bg-blue-100 py-[.5em] px-[.5em] text-sm rounded-sm hover:text-blue-800' to='experience' >Experience</Link></li>
                 <li><Link className='hover:bg-blue-100 py-[.5em] px-[.5em] text-sm rounded-sm hover:text-blue-800' to='license' >License</Link></li>
                 <li><Link className='hover:bg-blue-100 py-[.5em] px-[.5em] text-sm rounded-sm hover:text-blue-800' to='portfolio' >Portfolio</Link></li>
+                <li className='ml-2 bg-blue-600 group relative text-white py-[.5em] px-[.8em] font-[300] rounded-sm hover:bg-blue-800 text-sm' to='create' >Create New &darr;
+                  <ul className='hidden rounded overflow-hidden group-hover:flex flex-col bg-white shadow-md text-black absolute z-10'>
+                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='article/create'>Article</Link></li>
+                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='experience/create'>Experience</Link></li>
+                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='license/create'>License</Link></li>
+                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='portfolio/create'>Portfolio</Link></li>
+                  </ul>
+                </li>
               </ul>
           </nav>
-          <Button to='create' >Create &darr;</Button>
+          
       </div>
       <div className='flex items-center gap-4 px-4'>
         <div>
-          <Search placeholder='Search' className='rounded-md py-1 px-2 text-gray-700 text-sm border-[2px] border-solid border-gray-300'/>
+          <Search placeholder='Search'/>
         </div>
         <img className='w-10 h-10 rounded-full' src={ foto } alt='hello'/>
       </div>
