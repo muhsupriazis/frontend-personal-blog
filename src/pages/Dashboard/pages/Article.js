@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Option, RowArticle, Search, SelectBox, TableArticles } from '../../../components'
+import { Button, Option, Row, Search, SelectBox, TableArticles } from '../../../components'
 
 const Article = () => {
   return (
@@ -24,12 +24,12 @@ const Article = () => {
       </section>
       <section>
         <TableArticles>
-          <RowArticle>
+          <Row>
             <td>Hello World</td>
             <td>Hello wordl adaalah kalimat ajib bahi pada programmer yang mau belajar secara autodidal. oleh akretna itu wajb sekali pelajar itu</td>
             <td>09/12/2002</td>
             <td>Muhammad Supri</td>
-          </RowArticle>
+          </Row>
         </TableArticles>
       </section>
       <section className='my-6'>
