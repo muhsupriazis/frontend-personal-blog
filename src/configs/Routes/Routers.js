@@ -1,6 +1,6 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Dashboard, Login, MainApp } from '../../pages'
+import { Create, Dashboard, Login, MainApp } from '../../pages'
 
 const Routers = () => {
   return (
@@ -8,6 +8,7 @@ const Routers = () => {
         <Routes>
             <Route path='/dashboard/*' element={<Dashboard/>} />
             <Route path='/login' element={<Login/>} />
+            <Route path='/create/*' element={<Create/>}/>
             <Route path='/*' element={<MainApp/>} />
         </Routes>
     </BrowserRouter>

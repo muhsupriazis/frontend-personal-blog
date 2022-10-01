@@ -20,10 +20,10 @@ const Header = () => {
                 <li><Link className='hover:bg-blue-100 py-[.5em] px-[.5em] text-sm rounded-sm hover:text-blue-800' to='portfolio' >Portfolio</Link></li>
                 <li className='ml-2 bg-blue-600 group relative text-white py-[.5em] px-[.8em] font-[300] rounded-sm hover:bg-blue-800 text-sm' to='create' >Create New &darr;
                   <ul className='hidden rounded overflow-hidden group-hover:flex flex-col bg-white shadow-md text-black absolute z-10'>
-                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='article/create'>Article</Link></li>
-                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='experience/create'>Experience</Link></li>
-                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='license/create'>License</Link></li>
-                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='portfolio/create'>Portfolio</Link></li>
+                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='/create/article'>Article</Link></li>
+                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='/create/experience'>Experience</Link></li>
+                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='/create/license'>License</Link></li>
+                    <li><Link className='inline-block w-full py-2 px-4 hover:bg-blue-100 hover:text-blue-800' to='/create/portfolio'>Portfolio</Link></li>
                   </ul>
                 </li>
               </ul>
