@@ -6,5 +6,11 @@ import Row from "./Row"
 import ButtonPlus from "./ButtonPlus"
 import CardPortfolio from "./CardPortfolio"
 import ButtonBack from "./ButtonBack"
+import Label from "./Label"
+import InputText from "./InputText"
+import InputDate from "./InputDate"
+import ButtonSubmit from "./ButtonSubmit"
+import Anchor from "./Anchor"
+import InputUrl from "./InputUrl"
 
-export {Button, Search, SelectBox, Option, Row, ButtonPlus, CardPortfolio, ButtonBack}
+export {Anchor, InputUrl, Button, ButtonSubmit, Search, SelectBox, Option, Row, ButtonPlus, CardPortfolio, ButtonBack, Label, InputText, InputDate}
