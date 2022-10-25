@@ -1,6 +1,5 @@
-import License from "./License"
-import Experience from "./Experience"
+import Certificate from "./Certificate"
 import Portfolio from "./Portfolio"
-import Article from "./Article"
+import Blog from "./Blog"
 
-export {License, Experience, Portfolio, Article}
+export {Certificate, Portfolio, Blog}

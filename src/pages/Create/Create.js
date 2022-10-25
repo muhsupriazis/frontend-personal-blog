@@ -1,14 +1,13 @@
 import React, { Fragment } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { Article, Experience, License, Portfolio } from './pages'
+import { Blog, Certificate, Portfolio } from './pages'
 
 const Create = () => {
   return (
     <Fragment>
         <Routes>
-            <Route path='article' element={<Article/>}/>
-            <Route path='experience' element={<Experience/>}/>
-            <Route path='license' element={<License/>} />
+            <Route path='blog' element={<Blog/>}/>
+            <Route path='certificate' element={<Certificate/>} />
             <Route path='portfolio' element={<Portfolio/>} />
         </Routes>
     </Fragment>

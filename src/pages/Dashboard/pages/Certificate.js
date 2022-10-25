@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button, Search, SelectBox, Option, TableLicense, Row } from '../../../components'
 
-const License = () => {
+const Certificate = () => {
   return (
     <main className='p-10'>
       <section className='flex justify-between'>
-        <h1 className='text-xl items-center'>My Certification</h1>
-        <Button>Create Certification</Button>
+        <h1 className='text-xl items-center'>My Certificate</h1>
+        <Button to='/create/certificate' >Create Certificate</Button>
       </section>
       <section className='flex gap-4 my-6'>
         <Search placeholder='Search'/>
@@ -40,4 +40,4 @@ const License = () => {
   )
 }
 
-export default License
+export default Certificate

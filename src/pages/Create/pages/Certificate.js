@@ -1,11 +1,11 @@
 import React, {Fragment} from 'react'
 import { Anchor, Button, ButtonBack, InputDate, InputText, InputUrl, Label } from '../../../components'
 
-const License = () => {
+const Certificate = () => {
   return (
     <Fragment>
         <header className='py-6 px-10'>
-          <ButtonBack to='/dashboard/license'/>
+          <ButtonBack to='/dashboard/certificate'/>
         </header>
         <main>
           <section className='p-4 m-auto drop-shadow-sm rounded-md  max-w-[600px] border-gray-300 border-solid border-[1px] '>
@@ -32,4 +32,4 @@ const License = () => {
   )
 }
 
-export default License
+export default Certificate

@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
 import { ButtonBack } from '../../../components'
 
-const Article = () => {
+const Blog = () => {
   return (
     <Fragment>
         <header className='py-6 px-10'>
-          <ButtonBack to='/dashboard/article'/>
+          <ButtonBack to='/dashboard/blog'/>
         </header>
         <main>
 
@@ -14,4 +14,4 @@ const Article = () => {
   )
 }
 
-export default Article
+export default Blog

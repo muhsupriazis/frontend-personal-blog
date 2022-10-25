@@ -1,13 +1,13 @@
 import React from 'react'
 import { portofolio1 } from '../../../assets'
-import { Button, ButtonPlus, CardPortfolio } from '../../../components'
+import { Button, CardPortfolio } from '../../../components'
 
 const Portfolio = () => {
   return (
     <main className='p-10'>
-      <section className='flex justify-start gap-4'>
-        <h1 className='text-xl items-center'>My Experience</h1>
-        <ButtonPlus/>
+      <section className='flex justify-between'>
+        <h1 className='text-xl items-center'>My Portfolio</h1>
+        <Button to='/create/portfolio' >Create Portfolio</Button>
       </section>
       <section className='my-6'>
         <CardPortfolio>

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import {Routes, Route} from 'react-router-dom'
-import { Article, Experience, License, Portfolio, Main } from './pages'
+import { Blog,  Certificate, Portfolio, Main } from './pages'
 import { Header } from '../../components'
 
 const Dashboard = () => {
@@ -8,9 +8,8 @@ const Dashboard = () => {
     <Fragment>
       <Header/>
         <Routes>
-          <Route path='article' element={<Article/>}/>
-          <Route path='experience' element={<Experience/>}/>
-          <Route path='license' element={<License/>}/>
+          <Route path='blog' element={<Blog/>}/>
+          <Route path='certificate' element={<Certificate/>}/>
           <Route path='portfolio' element={<Portfolio/>}/>
           <Route path='' element={<Main/>} />
         </Routes>

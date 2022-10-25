@@ -1,12 +1,12 @@
 import React from 'react'
 import { Button, Option, Row, Search, SelectBox, TableArticles } from '../../../components'
 
-const Article = () => {
+const Blog = () => {
   return (
     <main className='p-10'>
       <section className='flex justify-between'>
-        <h1 className='text-xl items-center'>My Articles</h1>
-        <Button>Create Articles</Button>
+        <h1 className='text-xl items-center'>My Blog</h1>
+        <Button to='/create/blog' >Create Blog</Button>
       </section>
       <section className='flex gap-4 my-6'>
         <Search placeholder='Search'/>
@@ -39,4 +39,4 @@ const Article = () => {
   )
 }
 
-export default Article
+export default Blog
